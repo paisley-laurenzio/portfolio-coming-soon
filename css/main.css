@@ -12,16 +12,22 @@ html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;    
     background-color: #ddddde;
-    color: white;
+    color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .text {
-    padding-left: 4em;
+    padding-left: 5em;
     padding-right: 3em;
     margin: 0;
 }
@@ -39,6 +45,17 @@ p {
     font-size: 30px;
 }
 
+.me-pic {
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 10%;
+    max-width: 90%;
+}
+
+.icons {
+    text-decoration: none;
+}
+
 .socialmedia {
     width: 50px;
     margin: 25px;
@@ -46,5 +63,6 @@ p {
 }
 
 footer {
+    margin: 0 auto;
     text-align: center;
 }

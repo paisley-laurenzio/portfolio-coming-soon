@@ -34,7 +34,7 @@ body {
 
 .title {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 4em;
+    padding-top: 5.5em;
     font-size: 50px;
     font-weight: 300;
 }
@@ -53,7 +53,8 @@ p {
     vertical-align: middle;
     margin-top: 10%;
     height: auto;
-    width: 80%;
+    width: 70%;
+    margin-left: 4em;
     
 }
 

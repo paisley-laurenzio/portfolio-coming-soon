@@ -26,18 +26,23 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+
 .text {
-    padding-left: 6em;
-    padding-right: 4em;
+    padding-left: 2em;
+    padding-right: 1.5em;
     margin: 0;
 }
 
 .title {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 6em;
-    font-size: 50px;
+    padding-top: 2em;
+    font-size: 45px;
     font-weight: 300;
 }
+
+.email {
+    font-size: 15px;
+}   
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -45,17 +50,11 @@ p {
     font-size: 30px;
 }
 
-.email {
-    font-size: 20px;
-}
-
 .me-pic {
-    vertical-align: middle;
     margin-top: 10%;
     height: auto;
     width: 70%;
-    margin: 4em;
-    
+    margin: 3em;   
 }
 
 .icons {
@@ -76,19 +75,19 @@ footer {
 
 @media only screen and (min-width: 320px) {
 .text {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 1.5em;
     margin: 0;
 }
 
 .title {
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 2em;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 300;
 }
 
-    .email {
+.email {
     font-size: 15px;
 }   
 }
@@ -107,7 +106,7 @@ footer {
     font-weight: 300;
 }
 
-    .email {
+.email {
     font-size: 20px;
 }  
 }
@@ -121,12 +120,12 @@ footer {
 
 .title {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 8em;
+    padding-top: 10em;
     font-size: 50px;
     font-weight: 300;
 }
 
-    .email {
+.email {
     font-size: 20px;
 }  
 }

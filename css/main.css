@@ -65,11 +65,14 @@ p {
     width: 50px;
     margin: 25px;
     padding-top: 2rem;
+    text-decoration: none;
 }
 
 footer {
     margin: 0 auto;
-    text-align: center;
+    text-align: center;        
+    text-decoration: none;
+
 }
 
 
